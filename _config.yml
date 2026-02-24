@@ -1,0 +1,37 @@
+# _config.yml
+title: "Sandro Martinelli Reia"
+email: "sandro.reia@alumni.usp.br"
+description: >- # this means to ignore newlines until "baseurl:"
+  Statistical physicist studying cities, migration dynamics, and agent-based modeling.
+author:
+  name: "Sandro M. Reia"
+  avatar: "/assets/images/avatar.jpg" # Place your photo here
+  bio: "Postdoctoral Research Fellow<br>George Mason University"
+  location: "Fairfax, VA, USA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sandro.reia@alumni.usp.br"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=8T1-mIQAAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SandroReia" # Add if he has one
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # Options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# Navigation (Top Bar)
+main:
+  - title: "About"
+    url: "/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "CV"
+    url: "/assets/ReiaCV.pdf"
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme

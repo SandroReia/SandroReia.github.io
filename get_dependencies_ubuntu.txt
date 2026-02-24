@@ -1,0 +1,26 @@
+# 1. Install Ruby and Prerequisites
+sudo apt-get update
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+
+# 2. Configure Ruby Gems (Avoids using sudo)
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+
+# 3. Install Jekyll and Bundler
+gem install jekyll bundler
+
+
+# 4. Setup and Run the Project
+# 4.1. Go to the project folder
+cd path/to/project_folder
+
+# 4.2. Install project dependencies
+bundle install
+
+# 4.3. Start the server (using your patch for Ruby 3.2+)
+#RUBYOPT="-r ./fix_ruby.rb" 
+bundle exec jekyll serve
