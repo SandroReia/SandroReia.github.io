@@ -1,11 +1,16 @@
 # _config.yml
 title: "Sandro Martinelli Reia"
 email: "sandro.reia@alumni.usp.br"
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Statistical physicist studying cities, migration dynamics, and agent-based modeling.
+
+# IMPORTANT for https://sandroreia.github.io
+url: "https://sandroreia.github.io"
+baseurl: ""  # must be empty for a user site (username.github.io)
+
 author:
   name: "Sandro M. Reia"
-  avatar: "/assets/images/avatar.jpg" # Place your photo here
+  avatar: "/assets/images/avatar.jpg"
   bio: "Postdoctoral Research Fellow<br>George Mason University"
   location: "Fairfax, VA, USA"
   links:
@@ -17,10 +22,16 @@ author:
       url: "https://scholar.google.com/citations?user=8T1-mIQAAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/SandroReia" # Add if he has one
+      url: "https://github.com/SandroReia"
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # Options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+# Pinning a version is optional but recommended for stability
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Navigation (Top Bar)
 main:
@@ -30,8 +41,3 @@ main:
     url: "/publications/"
   - title: "CV"
     url: "/assets/ReiaCV.pdf"
-
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-remote-theme
