@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are important)
+---
+
+@charset "utf-8";
+@import "minimal-mistakes";
+
+/* 1. HIDE THE SITE TITLE */
+.site-title, 
+.masthead__site-title {
+  display: none !important;
+}
+
+/* 2. MAKE NAVBAR TRANSPARENT (Restored) */
+// .masthead {
+//   background-color: transparent !important;
+//   flood-color: transparent !important;
+//   caret-color: transparent !important;
+//   border-bottom: none;
+//   position: absolute;
+//   width: 100%;
+//   z-index: 20;
+// }
+// .greedy-nav {
+//   background-color: transparent !important;
+// }
+
+/* 3. MAKE MENU LINKS WHITE & READABLE */
+// .masthead__menu-item {
+//   color: #fff !important; 
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+// }
+// .masthead__menu-item--lg, .masthead__menu-item i {
+//     color: #fff !important;
+// }
+
+/* 4. FORCE STROKE OUTLINE ON HERO TEXT */
+/* We use .page__hero--overlay to be more specific than the theme defaults */
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__title,
+.page__lead {
+  color: #fff !important; /* Ensure text is white */
+  text-shadow: 
+    0 0 10px rgba(0,0,0,1),  /* Layer 1: Tight, fully black core */
+    0 0 10px rgba(0,0,0,1),  /* Layer 1: Tight, fully black core */
+    0 0 10px rgba(0,0,0,1),  /* Layer 1: Tight, fully black core */
+    0 0 10px rgba(0,0,0,1),  /* Layer 1: Tight, fully black core */
+    0 0 10px rgba(0,0,0,1),  /* Layer 1: Tight, fully black core */
+    0 0 10px rgba(0,0,0,1),  /* Layer 1: Tight, fully black core */
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+     0px 0px 8px rgba(0,0,0,0.8) !important;
+}
+
+/* 5. HIDE RSS FEED */
+.page__footer-follow a[href*="feed"] {
+  display: none !important;
+}
