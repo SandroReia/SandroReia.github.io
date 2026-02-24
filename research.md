@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 permalink: /research/
-title: "Research"
+title: "Sandro M. Reia"
 excerpt: "Urban Physicist<br><em>Research areas and selected publications</em>"
 classes: wide
 toc: false
