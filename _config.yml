@@ -10,7 +10,7 @@ baseurl: ""  # must be empty for a user site (username.github.io)
 
 author:
   name: "Sandro M. Reia"
-  avatar: "/assets/images/avatar.jpg"
+  avatar: "/assets/images/avatar.jpeg"
   bio: "Postdoctoral Research Fellow<br>George Mason University"
   location: "Fairfax, VA, USA"
   links:
