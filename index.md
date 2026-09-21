@@ -2,8 +2,7 @@
 layout: single
 author_profile: true
 title: "Sandro M. Reia"
-excerpt: "Computational Physicist & Urban Scientist<br><em>Using data and computer simulations to understand how people move, how cities grow, and how communities change</em>"
-description: "Sandro Reia uses data and computer simulations to understand how people move, how cities grow, and how communities respond to change."
+excerpt: "Computational Physicist & Urban Scientist<br><em>Building large-scale models of human mobility, migration, and cities</em>"
 classes: wide
 header:
   overlay_image: /assets/images/header-bg.jpg
@@ -12,18 +11,18 @@ header:
 ---
 
 <div class="profile-stats" aria-label="Career highlights">
-  <div class="profile-stat"><strong>20+ million</strong><span>people represented in one simulation</span></div>
-  <div class="profile-stat"><strong>35+</strong><span>published research papers</span></div>
-  <div class="profile-stat"><strong>10+ years</strong><span>turning complex data into insight</span></div>
+  <div class="profile-stat"><strong>20+ million</strong><span>agents in one simulation</span></div>
+  <div class="profile-stat"><strong>35+</strong><span>peer-reviewed publications</span></div>
+  <div class="profile-stat"><strong>10+ years</strong><span>in computational research</span></div>
 </div>
 
 ## About
 
-I use data and computer simulations to understand cities and the people who live in them. My research asks practical questions: Where do people go during a typical day? Why do some cities grow while others shrink? How do communities recover after disruption? And how do many individual choices combine to create large-scale social change?
+I am a computational physicist and urban scientist specializing in agent-based modeling, human mobility, migration, and complex systems. I combine large-scale simulation, geospatial data, network science, and statistical modeling to understand how cities grow, function, and respond to disruption.
 
-One approach I use is **agent-based modeling**. In plain language, this means creating a virtual population in which each simulated person makes decisions based on simple rules. By observing millions of these individual decisions together, we can study city-wide patterns that would be difficult or impossible to test in the real world.
+At **George Mason University**, I develop high-performance urban simulations capable of modeling more than 20 million agents. Previously, at **Purdue University**, I studied migration, city growth, and post-disaster recovery using demographic data and physics-inspired models.
 
-At **George Mason University**, I develop simulations that can represent the daily activities of more than 20 million people—the population of a major metropolitan area. Previously, at **Purdue University**, I studied migration, city growth, and recovery after disasters using population data and mathematical models.
+My work connects fundamental questions about collective behavior with practical challenges in mobility, infrastructure, resilience, and urban planning.
 
 <p class="page-actions">
   <a href="{{ '/research/' | relative_url }}" class="btn btn--primary">Explore my research</a>
@@ -35,28 +34,28 @@ At **George Mason University**, I develop simulations that can represent the dai
 <div class="feature-grid" markdown="1">
 
 <section class="feature-card" markdown="1">
-<span class="card-kicker">Everyday movement</span>
+<span class="card-kicker">Large-scale ABM simulation</span>
 ### Urban patterns of life
 
-Built a computer simulation that creates realistic daily schedules for virtual people—when they leave home, where they go, and why. It can represent more than 20 million people at once, making it possible to explore the behavior of an entire metropolitan area.
+Developed a generalizable agent-based framework that reproduces daily activity and mobility patterns across US cities. The system scales to full metropolitan populations of more than 20 million agents using Repast4Py and MPI.
 
 [Read about the project]({{ '/research/#urban-patterns-of-life' | relative_url }}) · [npj Complexity](https://doi.org/10.1038/s44260-026-00083-1)
 </section>
 
 <section class="feature-card" markdown="1">
-<span class="card-kicker">Migration and growth</span>
+<span class="card-kicker">Migration and population growth</span>
 ### How cities change
 
-Used 15 years of population data from more than 3,100 US counties to study why cities grow, shrink, or change position within the national urban system—and why smaller cities are especially sensitive to sudden migration shifts.
+Analyzed migration and demographic dynamics across more than 3,100 US counties, revealing how migration shocks, density gradients, and spillover effects shape urban growth and city-rank stability.
 
 [Read about the project]({{ '/research/#migration-and-city-growth' | relative_url }}) · [Nature Cities](https://doi.org/10.1038/s44284-024-00170-1)
 </section>
 
 <section class="feature-card" markdown="1">
-<span class="card-kicker">From individual choices to group outcomes</span>
-### How people influence one another
+<span class="card-kicker">Collective behavior</span>
+### Complex social systems
 
-Used computer experiments to study how communication, movement, and social influence affect cooperation, the spread of new ideas, cultural change, and the ability of groups to solve problems.
+Used statistical physics, networks, and agent-based models to study cooperation, collective intelligence, innovation diffusion, cultural dynamics, and the limits of crowd wisdom.
 
 [Read about the project]({{ '/research/#collective-behavior-and-complex-systems' | relative_url }}) · [Selected publications]({{ '/publications/#collective-behavior-and-complex-systems' | relative_url }})
 </section>
@@ -66,36 +65,18 @@ Used computer experiments to study how communication, movement, and social influ
 ## Selected contributions
 
 - First author of more than 25 scientific publications, including articles in *Nature Communications*, *Nature Cities*, and *Physics of Life Reviews*.
-- Lead developer of city-scale simulation and mapping systems for HAYSTAC, a US government research program focused on understanding patterns in human movement.
+- Lead developer of high-performance simulation and geospatial data pipelines for the IARPA HAYSTAC program.
 - Academic Editor at *PLOS ONE* in Urban Studies, Complexity, and Networks.
 - Recipient of multiple research grants and fellowships, including support from the São Paulo Research Foundation (FAPESP).
 
-## How I work
+## Methods and tools
 
-<div class="method-grid" markdown="1">
-
-**Computer simulation**<br>
-I build virtual populations to explore how individual decisions produce city-wide patterns.
-
-**Real-world data**<br>
-I analyze population, travel, road, building, and activity data to test whether models reflect reality.
-
-**Maps and networks**<br>
-I study how people and places are connected—and how those connections shape movement and access.
-
-**Scalable computing**<br>
-I design software that can answer questions involving entire metropolitan populations rather than small samples.
-
-</div>
-
-**Technical toolkit**
-
-<div class="skill-list" aria-label="Technical methods and tools">
+<div class="skill-list" aria-label="Methods and technical skills">
   <span>Agent-based modeling</span>
   <span>High-performance computing</span>
   <span>Python</span>
   <span>Fortran</span>
-  <span>Distributed computing (MPI & OpenMP)</span>
+  <span>MPI & OpenMP</span>
   <span>Repast4Py</span>
   <span>Geospatial analytics</span>
   <span>Network science</span>
