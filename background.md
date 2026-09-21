@@ -25,7 +25,7 @@ I am a computational physicist and urban scientist with more than a decade of ex
 **Postdoctoral Researcher, Geography and Geoinformation Science · 2023–Present · Fairfax, Virginia**
 
 - Led development of a virtual urban population that represents the daily activities and travel of more than **20 million people**.
-- Redesigned how the simulation shares work across computers, reducing some large runs from days to minutes using Repast4Py and MPI.
+- Redesigned how the simulation shares work across computers, reducing some large runs from days to minutes using Repast4Py and the Message Passing Interface (MPI).
 - Built automated systems that combine population, road, building, activity, and behavioral data into consistent city models.
 - Managed research and technical deliverables for **HAYSTAC**, a US government research program focused on patterns in human movement, while working with multidisciplinary academic and industry teams.
 - Supervised doctoral researchers and contributed to day-to-day research-group leadership.
@@ -55,19 +55,19 @@ I am a computational physicist and urban scientist with more than a decade of ex
 **Visiting Scholar, School of Informatics, Computing and Engineering · 2017–2018 · Bloomington, Indiana**
 
 - Extended computer models of how innovations spread through social connections and compared them with real-world data.
-- Conducted research with Prof. Santo Fortunato through a FAPESP-supported visiting fellowship.
+- Conducted research with Prof. Santo Fortunato through a visiting fellowship from the São Paulo Research Foundation (FAPESP).
 
 ## Selected programs
 
-### IARPA HAYSTAC — Urban mobility simulation
+### City-scale human movement — IARPA HAYSTAC
 
 Developed computer models of everyday movement—where people go, when they travel, and what activities they perform—to help distinguish common patterns from unusual ones in large mobility datasets. Led development of a simulation capable of producing realistic daily schedules for the full population of a metropolitan area.
 
-### NSF CRISP Type 2 — Disaster recovery and resilience
+### Disaster recovery and resilience — NSF CRISP Type 2
 
 Studied how people, neighborhoods, and infrastructure recover together after a disaster. The research examined how household decisions and failures in connected services—such as transportation, utilities, and community facilities—can speed up or delay recovery.
 
-### FAPESP — Diffusion of innovations
+### How new ideas spread — FAPESP
 
 Studied how new ideas spread through populations whose members have different backgrounds and preferences. The models explored how similarity, social influence, media, mobility, and patterns of social connection can help or hinder adoption.
 
@@ -81,8 +81,8 @@ Studied how new ideas spread through populations whose members have different ba
 
 ## Funding and fellowships
 
-- **2019–2021** — Postdoctoral Fellowship, CAPES
-- **2017–2018** — Visiting Postdoctoral Fellowship, FAPESP, grant 16/20874-3
+- **2019–2021** — Postdoctoral Fellowship, Brazilian Federal Agency for Support and Evaluation of Graduate Education (CAPES)
+- **2017–2018** — Visiting Postdoctoral Fellowship, São Paulo Research Foundation (FAPESP), grant 16/20874-3
 - **2016–2019** — Postdoctoral Fellowship, FAPESP, grant 15/17277-0
 - **2011–2015** — Ph.D. Fellowship, CAPES
 - **2009–2011** — Master's Fellowship, CAPES

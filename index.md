@@ -12,7 +12,7 @@ header:
 ---
 
 <div class="profile-stats" aria-label="Career highlights">
-  <div class="profile-stat"><strong>20M+</strong><span>people represented in one simulation</span></div>
+  <div class="profile-stat"><strong>20+ million</strong><span>people represented in one simulation</span></div>
   <div class="profile-stat"><strong>35+</strong><span>published research papers</span></div>
   <div class="profile-stat"><strong>10+ years</strong><span>turning complex data into insight</span></div>
 </div>
@@ -95,7 +95,7 @@ I design software that can answer questions involving entire metropolitan popula
   <span>High-performance computing</span>
   <span>Python</span>
   <span>Fortran</span>
-  <span>MPI & OpenMP</span>
+  <span>Distributed computing (MPI & OpenMP)</span>
   <span>Repast4Py</span>
   <span>Geospatial analytics</span>
   <span>Network science</span>

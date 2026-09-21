@@ -33,7 +33,7 @@ Can one computer model reproduce how people organize their daily activities acro
 
 At George Mason University, I led the development of a virtual city population. Each simulated person balances essential activities, such as work or school, with flexible activities, such as shopping, eating, and recreation. Their choices also depend on what the city makes available nearby—from roads and buildings to workplaces and services.
 
-The model can represent more than **20 million virtual people**, enough to simulate a major metropolitan area at full population scale. I compared its results with the 2017 National Household Travel Survey to check whether it reproduced real patterns: the activities people choose, the places they travel between, and the number of stops they make each day. For technical readers, the model is built with **Repast4Py and MPI**, and its distributed design reduced some simulation runtimes from days to minutes.
+The model can represent more than **20 million virtual people**, enough to simulate a major metropolitan area at full population scale. I compared its results with the 2017 National Household Travel Survey to check whether it reproduced real patterns: the activities people choose, the places they travel between, and the number of stops they make each day. For technical readers, the model is built with **Repast4Py and the Message Passing Interface (MPI)**, and its distributed design reduced some simulation runtimes from days to minutes.
 
 <p class="project-label">Why it matters</p>
 
@@ -107,7 +107,7 @@ The results show that more communication is not always better. Limiting informat
 <div class="method-grid" markdown="1">
 
 **Simulating individual decisions at city scale**<br>
-Agent-based modeling and distributed simulation using Repast4Py, MPI, OpenMP, Python, and Fortran.
+Agent-based modeling and distributed or parallel computing using Repast4Py, MPI, OpenMP, Python, and Fortran.
 
 **Connecting people with places**<br>
 Mapping and spatial analysis using GeoPandas, Shapely, PyProj, OSMnx, OpenStreetMap, and road networks.
