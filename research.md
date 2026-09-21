@@ -3,7 +3,8 @@ layout: single
 author_profile: true
 permalink: /research/
 title: "Research"
-excerpt: "From individual behavior to city-scale patterns"
+excerpt: "How everyday decisions shape movement, growth, and change across cities"
+description: "Accessible summaries of Sandro Reia's research on human mobility, migration, city growth, disaster recovery, and collective behavior."
 classes: wide
 toc: true
 toc_sticky: true
@@ -13,9 +14,12 @@ header:
   caption: "Photo: [**Sandro M. Reia**]"
 ---
 
-I study cities as complex systems. My research connects individual decisions—where people go, how they interact, and whether they move—with collective outcomes such as mobility patterns, population growth, resilience, and cultural change.
+My research starts with familiar questions about city life. Where do people go each day? What makes a city grow or shrink? How does a community recover after a disaster? How do communication and social influence change the choices people make?
 
-Across these problems, I combine agent-based modeling, high-performance computing, geospatial analysis, network science, and statistical physics with large empirical datasets.
+I answer these questions by combining real-world data with computer simulations. The goal is to connect individual decisions—where people travel, whom they interact with, and whether they move—with larger patterns such as congestion, migration, population growth, resilience, and cultural change.
+
+{: .notice--info}
+**What is an agent-based model?** It is a computer simulation made up of many individual decision-makers, called “agents.” In my urban models, an agent represents a virtual person who decides when and where to travel based on needs such as work, school, shopping, or leisure. When millions of these virtual people interact with a city, larger patterns emerge from their individual choices.
 
 ## Urban patterns of life
 
@@ -23,17 +27,17 @@ Across these problems, I combine agent-based modeling, high-performance computin
 
 <p class="project-label">The question</p>
 
-Can a single computational framework reproduce how people organize daily activities across different cities without requiring a new model for every location?
+Can one computer model reproduce how people organize their daily activities across many different cities?
 
 <p class="project-label">The work</p>
 
-At George Mason University, I led the development of a large-scale agent-based model in which daily schedules emerge from interactions between individual needs and the built environment. The simulation integrates population, infrastructure, activity-location, transportation, and behavioral data through reproducible geospatial pipelines.
+At George Mason University, I led the development of a virtual city population. Each simulated person balances essential activities, such as work or school, with flexible activities, such as shopping, eating, and recreation. Their choices also depend on what the city makes available nearby—from roads and buildings to workplaces and services.
 
-The model uses **Repast4Py and MPI**, scales to more than **20 million agents**, and reduced metropolitan-scale simulation runtimes from days to minutes. Its outputs were evaluated against empirical patterns from the 2017 National Household Travel Survey, including activity frequencies, origin–destination flows, and trip-chain lengths.
+The model can represent more than **20 million virtual people**, enough to simulate a major metropolitan area at full population scale. I compared its results with the 2017 National Household Travel Survey to check whether it reproduced real patterns: the activities people choose, the places they travel between, and the number of stops they make each day. For technical readers, the model is built with **Repast4Py and MPI**, and its distributed design reduced some simulation runtimes from days to minutes.
 
 <p class="project-label">Why it matters</p>
 
-A scalable, empirically grounded model makes it possible to study infrastructure stress, disaster recovery, disease spread, and anomalous mobility without exposing individual trajectory data. The work was developed in the context of the **IARPA HAYSTAC program**.
+A realistic virtual population allows researchers to safely explore “what if?” questions that would be costly, disruptive, or impossible to test with real people. Potential applications include transportation planning, infrastructure stress tests, disaster recovery, and the spread of disease. The work was developed through **HAYSTAC**, a research program of the US Intelligence Advanced Research Projects Activity (IARPA).
 
 **Publication:** [Towards universal urban patterns-of-life simulation](https://doi.org/10.1038/s44260-026-00083-1), *npj Complexity* (2026).
 
@@ -45,18 +49,18 @@ A scalable, empirically grounded model makes it possible to study infrastructure
 
 <p class="project-label">The question</p>
 
-How do migration flows reshape cities internally, alter their position within national urban systems, and create uneven patterns of population growth?
+How does the movement of people change where cities grow, which cities rise or fall in size, and what happens inside metropolitan areas?
 
 <p class="project-label">The work</p>
 
-At Purdue University, I developed multi-scale stochastic models and analytical workflows spanning more than **3,100 US counties** and **15 years of American Community Survey data**. This work separated intra-city from inter-city migration, measured spatially heterogeneous growth, and identified rare migration shocks using heavy-tailed statistical models.
+At Purdue University, I analyzed more than **3,100 US counties** using **15 years of American Community Survey data**. I separated moves within the same metropolitan area from moves between different cities, mapped where population change occurred, and identified unusually large migration events—what we call “migration shocks.”
 
 <p class="project-label">What we found</p>
 
-- Movement down population-density gradients contributes to asymmetric urban sprawl.
-- Redistribution within metropolitan areas can soften local demographic shocks.
-- Small cities experience greater rank volatility and are particularly sensitive to extreme domestic migration flows.
-- The stability of large cities is supported by international migration and natural population increase.
+- People often move outward from dense urban centers, contributing to uneven suburban expansion.
+- Movement within a metropolitan area can spread population change across neighboring counties rather than concentrating it in one place.
+- Smaller cities can rise or fall rapidly in national population rankings because a single large migration shift affects them more strongly.
+- Large cities are generally more stable because their growth also benefits from international migration and births exceeding deaths.
 
 **Selected publications:** [Nature Cities](https://doi.org/10.1038/s44284-024-00170-1) (2025) · [Nature Communications](https://doi.org/10.1038/s41467-022-33527-y) (2022) · [npj Urban Sustainability](https://doi.org/10.1038/s42949-022-00075-9) (2022)
 
@@ -68,13 +72,13 @@ At Purdue University, I developed multi-scale stochastic models and analytical w
 
 <p class="project-label">The question</p>
 
-How strongly does the physical structure of a city determine the activities and travel patterns of the people who live there?
+How strongly do streets, transportation routes, and the location of services influence what people do and where they travel?
 
 <p class="project-label">The work</p>
 
-I combined nationwide household travel data with road-network measures derived from OpenStreetMap to compare the form and function of 52 US metropolitan areas. Clustering revealed a small number of recurring mobility profiles but little direct correspondence between urban form and travel behavior.
+I compared the physical layout of roads with daily travel behavior in 52 US metropolitan areas. The analysis found a small number of recurring travel profiles: cities that appear very different can still have surprisingly similar patterns of work, shopping, recreation, and other activities.
 
-This research integrates trip-chain analysis, spatial networks, geospatial data engineering, and unsupervised learning to compare cities systematically rather than as isolated case studies.
+However, similar road layouts did not necessarily produce similar behavior. This suggests that culture, population characteristics, available services, and other local conditions may matter as much as physical design. Technically, the research combined the National Household Travel Survey, OpenStreetMap road networks, and machine-learning methods that group cities by shared characteristics.
 
 **Publication:** [Function and form of US cities](https://doi.org/10.1016/j.compenvurbsys.2024.102221), *Computers, Environment and Urban Systems* (2025).
 
@@ -86,13 +90,13 @@ This research integrates trip-chain analysis, spatial networks, geospatial data 
 
 <p class="project-label">The question</p>
 
-How do simple rules governing communication, movement, and social influence generate cooperation, polarization, innovation, or collective failure?
+How do everyday interactions—sharing information, copying successful people, or choosing whom to trust—affect what a group can accomplish?
 
 <p class="project-label">The work</p>
 
-My earlier research used parsimonious agent-based and network models to investigate collective intelligence, diffusion of innovations, cultural dynamics, and cooperative problem solving. I developed large-scale simulations in Fortran and applied nonparametric statistics to empirical forecasting and citation data.
+My earlier research used computer experiments to study group problem solving, the spread of new ideas, cultural change, and the “wisdom of crowds.” These models begin with simple individuals who can explore, communicate, or copy one another, then reveal how those choices influence the group as a whole.
 
-The results show that constrained information exchange can sometimes improve collective search, mobility can help groups escape consensus traps, and apparent “wisdom of crowds” effects depend strongly on how performance is measured.
+The results show that more communication is not always better. Limiting information can sometimes encourage useful exploration; movement can help groups escape “groupthink”; and a crowd's average answer is not automatically better than the judgments of its members. The technical work combined large-scale Fortran simulations, network models, and statistical analysis of forecasting and citation data.
 
 **Selected publications:** [Agent-based models of collective intelligence](https://doi.org/10.1016/j.plrev.2018.10.004), *Physics of Life Reviews* (2019) · [Mobility helps problem-solving systems to avoid groupthink](https://doi.org/10.1103/PhysRevE.99.032301), *Physical Review E* (2019) · [Impact of centrality on cooperative processes](https://doi.org/10.1103/PhysRevE.95.022305), *Physical Review E* (2017)
 
@@ -102,17 +106,17 @@ The results show that constrained information exchange can sometimes improve col
 
 <div class="method-grid" markdown="1">
 
-**Simulation and HPC**<br>
-Agent-based modeling, distributed simulation, Repast4Py, MPI, OpenMP, Python, and Fortran.
+**Simulating individual decisions at city scale**<br>
+Agent-based modeling and distributed simulation using Repast4Py, MPI, OpenMP, Python, and Fortran.
 
-**Geospatial systems**<br>
-GeoPandas, Shapely, PyProj, OSMnx, OpenStreetMap, spatial networks, and scalable data pipelines.
+**Connecting people with places**<br>
+Mapping and spatial analysis using GeoPandas, Shapely, PyProj, OSMnx, OpenStreetMap, and road networks.
 
-**Data and modeling**<br>
-Statistical inference, stochastic processes, network analysis, clustering, regression, and machine learning.
+**Finding reliable patterns in complex data**<br>
+Statistics, network analysis, clustering, regression, stochastic modeling, and machine learning.
 
-**Empirical sources**<br>
-Census and ACS demographics, NHTS and AADT mobility data, point-of-interest activity, road networks, citation networks, and forecasting data.
+**Testing ideas against real evidence**<br>
+Population, travel, traffic, building, road, scientific-citation, and economic-forecasting data.
 
 </div>
 

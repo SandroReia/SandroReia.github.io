@@ -3,7 +3,8 @@ layout: single
 author_profile: true
 permalink: /publications/
 title: "Publications"
-excerpt: "Urban systems, collective behavior, and computational physics"
+excerpt: "Research on how people move, cities change, and groups behave"
+description: "Research papers by Sandro Reia on urban mobility, migration, city growth, collective behavior, networks, and computational physics."
 classes: wide
 toc: true
 toc_sticky: true
@@ -13,7 +14,9 @@ header:
   caption: "Photo: [**Sandro M. Reia**]"
 ---
 
-I have authored more than **35 peer-reviewed publications**, including more than **25 as first author**, spanning urban science, mobility, complex systems, network science, and statistical physics. For citation metrics and the most current record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=8T1-mIQAAAAJ&hl=en).
+My publications explore three broad questions: How do people move through cities? Why do cities grow and change? And how do individual choices produce group behavior? I have authored more than **35 peer-reviewed research papers**, including more than **25 as first author**. The featured summaries below explain several key results in plain language; the complete lists retain the original article titles for readers who want the technical record.
+
+For citation metrics and the most current record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=8T1-mIQAAAAJ&hl=en).
 
 ## Featured work
 
@@ -23,7 +26,7 @@ I have authored more than **35 peer-reviewed publications**, including more than
 <span class="card-kicker">npj Complexity · 2026</span>
 ### [Towards universal urban patterns-of-life simulation](https://doi.org/10.1038/s44260-026-00083-1)
 
-A generalizable agent-based framework that reproduces empirical activity and mobility patterns and scales to metropolitan populations of more than 20 million agents.
+A computer simulation that creates realistic daily schedules for virtual people and can represent the full population of a metropolitan area—more than 20 million people at once.
 
 **Role:** First and corresponding author
 </article>
@@ -32,7 +35,7 @@ A generalizable agent-based framework that reproduces empirical activity and mob
 <span class="card-kicker">Nature Cities · 2025</span>
 ### [Domestic migration and city rank dynamics](https://doi.org/10.1038/s44284-024-00170-1)
 
-Shows how rare migration shocks disproportionately affect small cities and how migration shapes stability across national urban hierarchies.
+Shows that unusually large migration shifts affect smaller cities most strongly, while larger cities are generally more stable because they draw growth from several sources.
 
 **Role:** First author
 </article>
@@ -41,7 +44,7 @@ Shows how rare migration shocks disproportionately affect small cities and how m
 <span class="card-kicker">Nature Communications · 2022</span>
 ### [Spatial structure of city population growth](https://doi.org/10.1038/s41467-022-33527-y)
 
-Reveals how intra-city and inter-city migration produce heterogeneous population growth and asymmetric urban expansion.
+Reveals how moves within and between cities produce uneven population growth and push urban expansion outward from dense centers.
 
 **Role:** First author
 </article>
@@ -50,7 +53,7 @@ Reveals how intra-city and inter-city migration produce heterogeneous population
 <span class="card-kicker">Computers, Environment and Urban Systems · 2025</span>
 ### [Function and form of US cities](https://doi.org/10.1016/j.compenvurbsys.2024.102221)
 
-Compares mobility behavior and road-network structure across 52 metropolitan areas, identifying recurring functional classes of cities.
+Compares how people travel with how roads are arranged across 52 metropolitan areas, finding that very different cities can share similar daily activity patterns.
 
 **Role:** First author
 </article>
@@ -59,7 +62,7 @@ Compares mobility behavior and road-network structure across 52 metropolitan are
 <span class="card-kicker">Physics of Life Reviews · 2019</span>
 ### [Agent-based models of collective intelligence](https://doi.org/10.1016/j.plrev.2018.10.004)
 
-A review and synthesis of how simple interacting agents can solve difficult problems through cooperation and distributed search.
+Explains how groups of people—or virtual decision-makers in a computer model—can share information and cooperate to solve difficult problems.
 
 **Role:** First author
 </article>
@@ -68,7 +71,7 @@ A review and synthesis of how simple interacting agents can solve difficult prob
 <span class="card-kicker">npj Urban Sustainability · 2022</span>
 ### [Modeling the dynamics and spatial heterogeneity of city growth](https://doi.org/10.1038/s42949-022-00075-9)
 
-A stochastic framework connecting migration, spatial heterogeneity, and the uneven population trajectories of cities.
+A mathematical model showing how migration helps produce very different population paths across cities and across neighborhoods within the same city.
 
 **Role:** First author
 </article>

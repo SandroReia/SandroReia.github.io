@@ -3,7 +3,8 @@ layout: single
 author_profile: true
 permalink: /background/
 title: "Experience"
-excerpt: "Computational research across physics, cities, and complex systems"
+excerpt: "Using data and simulation to understand cities, movement, and collective behavior"
+description: "Sandro Reia's experience using data, computer simulation, and physics to study cities, human movement, migration, and collective behavior."
 classes: wide
 toc: true
 toc_sticky: true
@@ -15,7 +16,7 @@ header:
 
 ## Profile
 
-I am a computational physicist and urban scientist with more than a decade of experience applying statistical physics, high-performance computing, geospatial analysis, and data science to complex real-world systems. My work spans research design, scalable software and data pipelines, empirical analysis, scientific communication, and collaboration across academic, government, and industry teams.
+I am a computational physicist and urban scientist with more than a decade of experience using data and computer simulations to understand real-world systems. I study how people move through cities, how populations change, how communities recover from disruption, and how individual choices add up to collective behavior. My work includes research design, software development, data analysis, scientific communication, and collaboration across academic, government, and industry teams.
 
 ## Research experience
 
@@ -23,52 +24,52 @@ I am a computational physicist and urban scientist with more than a decade of ex
 
 **Postdoctoral Researcher, Geography and Geoinformation Science · 2023–Present · Fairfax, Virginia**
 
-- Led development of a high-performance agent-based urban mobility model supporting metropolitan populations of more than **20 million agents**.
-- Optimized Repast4Py and MPI workflows, reducing large simulation runtimes from days to minutes.
-- Architected geospatial pipelines integrating population, infrastructure, activity-location, and behavioral data using GeoPandas and OSMnx.
-- Managed research lifecycles and technical deliverables for the **IARPA HAYSTAC program**, working with multidisciplinary academic and industry teams.
+- Led development of a virtual urban population that represents the daily activities and travel of more than **20 million people**.
+- Redesigned how the simulation shares work across computers, reducing some large runs from days to minutes using Repast4Py and MPI.
+- Built automated systems that combine population, road, building, activity, and behavioral data into consistent city models.
+- Managed research and technical deliverables for **HAYSTAC**, a US government research program focused on patterns in human movement, while working with multidisciplinary academic and industry teams.
 - Supervised doctoral researchers and contributed to day-to-day research-group leadership.
 
 ### Purdue University
 
 **Postdoctoral Researcher, Lyles School of Civil Engineering · 2021–2023 · West Lafayette, Indiana**
 
-- Developed multi-scale stochastic models of urban evolution using migration and demographic data from more than **3,100 US counties**.
+- Developed mathematical models of urban growth using migration and population data from more than **3,100 US counties**.
 - Built analytical workflows spanning 15 years of American Community Survey data.
-- Used heavy-tailed statistical models to identify migration shocks and quantify their influence on city-rank volatility.
+- Identified unusually large migration events and measured how they cause cities—especially smaller ones—to rise or fall in national population rankings.
 - Published first-author research in *Nature Communications*, *Nature Cities*, and *npj Urban Sustainability* on migration, population growth, and urban sprawl.
-- Contributed to NSF CRISP research on critical transitions in the resilience and recovery of interdependent social and physical networks.
+- Contributed to a National Science Foundation project studying how communities and infrastructure recover together after disasters.
 
 ### University of São Paulo
 
 **Postdoctoral Researcher, São Carlos Institute of Physics · 2016–2021 · São Carlos, Brazil**
 
-- Developed agent-based models of collective intelligence, innovation diffusion, cultural dynamics, and cooperative problem solving.
+- Built computer simulations to study how groups solve problems, how new ideas spread, and how cultures change through social interaction.
 - Implemented and analyzed large-scale Fortran simulations across approximately 100,000 computational runs.
 - Applied epidemic modeling to 15 years of citation data to study the limits of long-term scientific-impact forecasting.
 - Analyzed nearly 10,000 empirical forecasting experiments to evaluate when collective predictions outperform individual experts.
-- Published research across statistical physics, complex systems, computational social science, and science of science.
+- Published research spanning physics, social behavior, networks, and the study of how science itself develops.
 
 ### Indiana University
 
 **Visiting Scholar, School of Informatics, Computing and Engineering · 2017–2018 · Bloomington, Indiana**
 
-- Extended theoretical and computational models of innovation diffusion using empirical data and complex-network methods.
+- Extended computer models of how innovations spread through social connections and compared them with real-world data.
 - Conducted research with Prof. Santo Fortunato through a FAPESP-supported visiting fellowship.
 
 ## Selected programs
 
 ### IARPA HAYSTAC — Urban mobility simulation
 
-Developed models of normal human movement across time, location, and activity to support the detection and analysis of anomalous patterns in large trajectory datasets. Led development of a distributed urban microsimulator capable of producing realistic activity schedules for full metropolitan populations.
+Developed computer models of everyday movement—where people go, when they travel, and what activities they perform—to help distinguish common patterns from unusual ones in large mobility datasets. Led development of a simulation capable of producing realistic daily schedules for the full population of a metropolitan area.
 
 ### NSF CRISP Type 2 — Disaster recovery and resilience
 
-Investigated recovery in interdependent social and physical networks, including how household decisions, network structure, and cascading infrastructure failures influence resilience, tipping points, and community re-entry.
+Studied how people, neighborhoods, and infrastructure recover together after a disaster. The research examined how household decisions and failures in connected services—such as transportation, utilities, and community facilities—can speed up or delay recovery.
 
 ### FAPESP — Diffusion of innovations
 
-Studied how innovations spread through culturally heterogeneous populations. Extended Axelrod-type models to examine the effects of homophily, social influence, media, mobility, long-range interaction, and network structure.
+Studied how new ideas spread through populations whose members have different backgrounds and preferences. The models explored how similarity, social influence, media, mobility, and patterns of social connection can help or hinder adoption.
 
 ## Education
 

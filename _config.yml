@@ -2,8 +2,10 @@
 title: "Sandro Martinelli Reia"
 email: "smreia@gmail.com"
 description: >-
-  Computational physicist and urban scientist building large-scale models of
-  human mobility, migration, and complex systems.
+  Urban scientist using data and computer simulations to understand how people
+  move, how cities grow, and how communities respond to change.
+locale: "en-US"
+og_image: "/assets/images/header-bg.jpg"
 
 # IMPORTANT for https://sandroreia.github.io
 url: "https://sandroreia.github.io"
