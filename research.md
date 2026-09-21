@@ -2,93 +2,118 @@
 layout: single
 author_profile: true
 permalink: /research/
-title: "Sandro M. Reia"
-excerpt: "Urban Physicist<br><em>Research areas and selected publications</em>"
+title: "Research"
+excerpt: "From individual behavior to city-scale patterns"
 classes: wide
-toc: false
+toc: true
+toc_sticky: true
 header:
   overlay_image: /assets/images/header-bg.jpg
-  overlay_filter: "linear-gradient(to right, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 50%)"
-  caption: "Image credit: [**Sandro M. Reia**]"
+  overlay_filter: "linear-gradient(to right, rgba(8,18,30,0.96) 12%, rgba(8,18,30,0.72) 48%, rgba(8,18,30,0.18) 100%)"
+  caption: "Photo: [**Sandro M. Reia**]"
 ---
 
-<style>
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.25rem;
-}
-.research-card {
-  background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(0,0,0,0.10);
-  border-radius: 18px;
-  padding: 1.25rem 1.25rem 1.1rem 1.25rem;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
-}
-.research-icon {
-  width: 76px;
-  height: 76px;
-  margin-bottom: 0.75rem;
-}
-.research-card h2 {
-  margin: 0.1rem 0 0.5rem 0;
-  font-size: 1.25rem;
-}
-.research-card p {
-  margin: 0 0 0.8rem 0;
-}
-.research-card ul {
-  margin: 0;
-}
-</style>
+I study cities as complex systems. My research connects individual decisions—where people go, how they interact, and whether they move—with collective outcomes such as mobility patterns, population growth, resilience, and cultural change.
 
-## Research areas
+Across these problems, I combine agent-based modeling, high-performance computing, geospatial analysis, network science, and statistical physics with large empirical datasets.
 
-<div class="research-grid">
+## Urban patterns of life
 
-  <div class="research-card">
-    <!-- <img class="research-icon" src="/assets/images/research/urban-theory.svg" alt="Urban science theory icon"> -->
-    <h2>Urban science theory</h2>
-    <p>Urban science theory looks for simple, general rules behind how cities grow and change. It matters because these ideas help explain differences between cities and support better long-term planning.</p>
-  </div>
+<div class="project-summary" markdown="1">
 
-  <!-- <div class="research-card">
-    <img class="research-icon" src="/assets/images/research/city-data.svg" alt="City characterization through data icon">
-    <h2>City characterization through empirical data</h2>
-    <p>City characterization uses real-world data to describe how a city functions—how people move, where activity concentrates, and how places connect. It matters because good measurements enable fair comparisons and reality-check models and policies.</p>
-    <ul>
-      <li><strong>Function and form of US cities</strong> — <em>Computers, Environment and Urban Systems</em> (2025). DOI: <https://doi.org/10.1016/j.compenvurbsys.2024.102221></li>
-      <li><strong>Towards Universal Urban Patterns-of-Life Simulation</strong> — arXiv (2026). <https://arxiv.org/abs/2601.22099></li>
-      <li><strong>Spatial structure of city population growth</strong> — <em>Nature Communications</em> (2022). DOI: <https://doi.org/10.1038/s41467-022-33527-y></li>
-    </ul>
-  </div> -->
+<p class="project-label">The question</p>
 
-  <!-- <div class="research-card">
-    <img class="research-icon" src="/assets/images/research/infrastructure.svg" alt="Infrastructure affects behavior icon">
-    <h2>Infrastructure affects behavior</h2>
-    <p>This area studies how streets, transit, and the location of services shape daily decisions about where to go. It matters because infrastructure choices influence access to opportunity, congestion, and quality of life.</p>
-    <ul>
-      <li><strong>Towards Universal Urban Patterns-of-Life Simulation</strong> — arXiv (2026). <https://arxiv.org/abs/2601.22099></li>
-      <li><strong>Function and form of US cities</strong> — <em>Computers, Environment and Urban Systems</em> (2025). DOI: <https://doi.org/10.1016/j.compenvurbsys.2024.102221></li>
-      <li><strong>Modeling the dynamics and spatial heterogeneity of city growth</strong> — <em>npj Urban Sustainability</em> (2022). DOI: <https://doi.org/10.1038/s42949-022-00075-9></li>
-    </ul>
-  </div> -->
+Can a single computational framework reproduce how people organize daily activities across different cities without requiring a new model for every location?
 
-  <div class="research-card">
-    <!-- <img class="research-icon" src="/assets/images/research/social-dynamics.svg" alt="Complex social dynamics icon"> -->
-    <h2>Complex dynamics of social systems</h2>
-    <p>Complex social dynamics explains how many individual actions add up to collective outcomes like cooperation, information spread, or sudden shifts. It matters because many societal challenges are driven by these large-scale effects.</p>
-    <!-- <ul>
-      <li><strong>Agent-based models of collective intelligence</strong> — <em>Physics of Life Reviews</em> (2019). DOI: <https://doi.org/10.1016/j.plrev.2018.10.004></li>
-      <li><strong>Mobility helps problem-solving systems to avoid groupthink</strong> — <em>Physical Review E</em> (2019). DOI: <https://doi.org/10.1103/PhysRevE.99.032301></li>
-      <li><strong>Impact of centrality on cooperative processes</strong> — <em>Physical Review E</em> (2017). DOI: <https://doi.org/10.1103/PhysRevE.95.022305></li>
-    </ul> -->
-  </div>
+<p class="project-label">The work</p>
+
+At George Mason University, I led the development of a large-scale agent-based model in which daily schedules emerge from interactions between individual needs and the built environment. The simulation integrates population, infrastructure, activity-location, transportation, and behavioral data through reproducible geospatial pipelines.
+
+The model uses **Repast4Py and MPI**, scales to more than **20 million agents**, and reduced metropolitan-scale simulation runtimes from days to minutes. Its outputs were evaluated against empirical patterns from the 2017 National Household Travel Survey, including activity frequencies, origin–destination flows, and trip-chain lengths.
+
+<p class="project-label">Why it matters</p>
+
+A scalable, empirically grounded model makes it possible to study infrastructure stress, disaster recovery, disease spread, and anomalous mobility without exposing individual trajectory data. The work was developed in the context of the **IARPA HAYSTAC program**.
+
+**Publication:** [Towards universal urban patterns-of-life simulation](https://doi.org/10.1038/s44260-026-00083-1), *npj Complexity* (2026).
 
 </div>
 
----
+## Migration and city growth
 
-For a complete list of publications, see the <a href="/publications/">Publications</a> page or my
-<a href="https://scholar.google.com/citations?user=8T1-mIQAAAAJ&hl">Google Scholar profile</a>.
+<div class="project-summary" markdown="1">
+
+<p class="project-label">The question</p>
+
+How do migration flows reshape cities internally, alter their position within national urban systems, and create uneven patterns of population growth?
+
+<p class="project-label">The work</p>
+
+At Purdue University, I developed multi-scale stochastic models and analytical workflows spanning more than **3,100 US counties** and **15 years of American Community Survey data**. This work separated intra-city from inter-city migration, measured spatially heterogeneous growth, and identified rare migration shocks using heavy-tailed statistical models.
+
+<p class="project-label">What we found</p>
+
+- Movement down population-density gradients contributes to asymmetric urban sprawl.
+- Redistribution within metropolitan areas can soften local demographic shocks.
+- Small cities experience greater rank volatility and are particularly sensitive to extreme domestic migration flows.
+- The stability of large cities is supported by international migration and natural population increase.
+
+**Selected publications:** [Nature Cities](https://doi.org/10.1038/s44284-024-00170-1) (2025) · [Nature Communications](https://doi.org/10.1038/s41467-022-33527-y) (2022) · [npj Urban Sustainability](https://doi.org/10.1038/s42949-022-00075-9) (2022)
+
+</div>
+
+## Urban form, function, and mobility
+
+<div class="project-summary" markdown="1">
+
+<p class="project-label">The question</p>
+
+How strongly does the physical structure of a city determine the activities and travel patterns of the people who live there?
+
+<p class="project-label">The work</p>
+
+I combined nationwide household travel data with road-network measures derived from OpenStreetMap to compare the form and function of 52 US metropolitan areas. Clustering revealed a small number of recurring mobility profiles but little direct correspondence between urban form and travel behavior.
+
+This research integrates trip-chain analysis, spatial networks, geospatial data engineering, and unsupervised learning to compare cities systematically rather than as isolated case studies.
+
+**Publication:** [Function and form of US cities](https://doi.org/10.1016/j.compenvurbsys.2024.102221), *Computers, Environment and Urban Systems* (2025).
+
+</div>
+
+## Collective behavior and complex systems
+
+<div class="project-summary" markdown="1">
+
+<p class="project-label">The question</p>
+
+How do simple rules governing communication, movement, and social influence generate cooperation, polarization, innovation, or collective failure?
+
+<p class="project-label">The work</p>
+
+My earlier research used parsimonious agent-based and network models to investigate collective intelligence, diffusion of innovations, cultural dynamics, and cooperative problem solving. I developed large-scale simulations in Fortran and applied nonparametric statistics to empirical forecasting and citation data.
+
+The results show that constrained information exchange can sometimes improve collective search, mobility can help groups escape consensus traps, and apparent “wisdom of crowds” effects depend strongly on how performance is measured.
+
+**Selected publications:** [Agent-based models of collective intelligence](https://doi.org/10.1016/j.plrev.2018.10.004), *Physics of Life Reviews* (2019) · [Mobility helps problem-solving systems to avoid groupthink](https://doi.org/10.1103/PhysRevE.99.032301), *Physical Review E* (2019) · [Impact of centrality on cooperative processes](https://doi.org/10.1103/PhysRevE.95.022305), *Physical Review E* (2017)
+
+</div>
+
+## Methods
+
+<div class="method-grid" markdown="1">
+
+**Simulation and HPC**<br>
+Agent-based modeling, distributed simulation, Repast4Py, MPI, OpenMP, Python, and Fortran.
+
+**Geospatial systems**<br>
+GeoPandas, Shapely, PyProj, OSMnx, OpenStreetMap, spatial networks, and scalable data pipelines.
+
+**Data and modeling**<br>
+Statistical inference, stochastic processes, network analysis, clustering, regression, and machine learning.
+
+**Empirical sources**<br>
+Census and ACS demographics, NHTS and AADT mobility data, point-of-interest activity, road networks, citation networks, and forecasting data.
+
+</div>
+
+See the [publications page]({{ '/publications/' | relative_url }}) for related papers or [download my CV]({{ '/assets/files/Reia_CV.pdf' | relative_url }}) for a complete professional record.

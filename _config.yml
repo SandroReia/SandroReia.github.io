@@ -1,8 +1,9 @@
 # _config.yml
 title: "Sandro Martinelli Reia"
-email: "sandro.reia@alumni.usp.br"
+email: "smreia@gmail.com"
 description: >-
-  Statistical physicist studying cities, migration dynamics, and agent-based modeling.
+  Computational physicist and urban scientist building large-scale models of
+  human mobility, migration, and complex systems.
 
 # IMPORTANT for https://sandroreia.github.io
 url: "https://sandroreia.github.io"
@@ -11,18 +12,21 @@ baseurl: ""  # must be empty for a user site (username.github.io)
 author:
   name: "Sandro M. Reia"
   avatar: "/assets/images/avatar.jpeg"
-  bio: "Postdoctoral Research Fellow<br>George Mason University"
+  bio: "Computational Physicist<br>Urban Scientist"
   location: "Fairfax, VA, USA"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sandro.reia@alumni.usp.br"
+      url: "mailto:smreia@gmail.com"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=8T1-mIQAAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SandroReia"
+    - label: "Curriculum Vitae"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/Reia_CV.pdf"
 
 # Pinning a version is optional but recommended for stability
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
@@ -32,12 +36,3 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
-
-# Navigation (Top Bar)
-main:
-  - title: "About"
-    url: "/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "CV"
-    url: "/assets/ReiaCV.pdf"

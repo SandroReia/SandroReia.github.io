@@ -1,11 +1,13 @@
 # _data/navigation.yml
 
 main:
-  - title: "Home"
+  - title: "About"
     url: "/"
   - title: "Research"
     url: "/research/"
   - title: "Publications"
     url: "/publications/"
-  - title: "Background"
+  - title: "Experience"
     url: "/background/"
+  - title: "CV"
+    url: "/assets/files/Reia_CV.pdf"
