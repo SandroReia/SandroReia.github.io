@@ -27,8 +27,7 @@ I am a computational physicist and urban scientist with more than a decade of ex
 - Led development of a virtual urban population that represents the daily activities and travel of more than **20 million people**.
 - Redesigned how the simulation shares work across computers, reducing some large runs from days to minutes using Repast4Py and the Message Passing Interface (MPI).
 - Built automated systems that combine population, road, building, activity, and behavioral data into consistent city models.
-- Managed research and technical deliverables for **HAYSTAC**, a US government research program focused on patterns in human movement, while working with multidisciplinary academic and industry teams.
-- Supervised doctoral researchers and contributed to day-to-day research-group leadership.
+- Delivered research findings and city-scale simulation capabilities to **L3Harris** for **IARPA’s HAYSTAC program**, collaborating with academic and industry partners to understand everyday and unusual patterns in human movement.
 
 ### Purdue University
 
